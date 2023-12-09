@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+/* :root{
+    --background-color: #e7e3c0;
+    --primary-color: #33495d;
+    --primary-color-50: #527a6d;
+    --secondary-color: #AAB8A8;
+    --lime-green: #2a7352;
+    --white: #EDEDED;
+    --cinza: #cbced365;
+    --third-color: #33a07b;
+    --success-color: #5cb85c;
+    --error-color: #ff3333;
+    --third-color: #474747;
+    --fourth-color: #2c2c2c;
+} */
+/* 4ba78a */
+
+:root{
+  --background-color: #ffffff;
+  --primary-color: #33495d;
+  --primary-color-50: #33495d50;
+  --secondary-color: #AAB8A8;
+  --lime-green: #2a7352;
+  --white: #EDEDED;
+  --cinza: #cbced365;
+  --success-color: #5cb85c;
+  --error-color: #ff3333;
+  --third-color: #474747;
+  --fourth-color: #0f0f0f;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+}
+
+body {
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .stars input {
+    display: none;
+  }
+  
+  .stars > label {
+    width: 26px;
+    height: 26px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color: rgb(255, 140, 0);
+  }
+  
+  .stars > label::before {
+    content: "\2606";
+    position: relative;
+    top: -8px;
+    line-height: 26px;
+  }
+  
+  .stars > .true::before {
+    content: "\2605";
+  }
+
+  textarea {
+    font-family: 'Inter', sans-serif;
+  }
+  
